@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2 class="mb-3">Rent a Car</h2>
+  <form method="POST" class="row g-3">
+    <div class="col-md-6">
+      <label for="car_id" class="form-label">Select a car:</label>
+      <select class="form-select" name="car_id" id="car_id" required>
+        {% for car in cars if car.status == 'Available' %}
+          <option value="{{ car.car_id }}">{{ car.name }} (ID: {{ car.car_id }})</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Rent Now</button>
+    </div>
+  </form>
+{% endblock %}

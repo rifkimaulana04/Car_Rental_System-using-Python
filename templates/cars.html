@@ -1,0 +1,14 @@
+<!-- templates/cars.html -->
+{% extends 'base.html' %}
+{% block content %}
+<h2 class="text-center">Available Cars</h2>
+<div class="grid-container">
+  {% for car in cars %}
+  <div class="card">
+    <img src="{{ url_for('static', filename='images/' + car.image) }}" alt="{{ car.name }}" class="car-img">
+    <h3>{{ car.name }}</h3>
+    <p>Status: <strong>{{ car.status }}</strong></p>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

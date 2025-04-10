@@ -1,0 +1,10 @@
+101,Toyota Corolla,Rented,1.png
+102,Honda Civic,Rented,2.jpg
+103,Ford Mustang,Available,3.jpg
+104,Chevrolet Malibu,Rented,4.jpg
+105,Hyundai Elantra,Available,5.jpg
+106,BMW,Rented,6.jpg
+107,Audi A4,Rented,7.jpg
+108,Tesla Model 3,Available,8.jpg
+109,Mercedes-Benz E-Class,Rented,9.jpg
+110,Jeep Compass,Rented,10.jpg

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 class="text-center">Return a Car</h2>
+
+<div class="form-container">
+  <form method="POST" action="/return">
+    <label for="car_id">Select a Rented Car to Return:</label><br>
+    <select name="car_id" required>
+      {% for car in cars %}
+        {% if car.status.lower() == 'rented' %}
+          <option value="{{ car.car_id }}">{{ car.car_id }} - {{ car.name }}</option>
+        {% endif %}
+      {% endfor %}
+    </select><br><br>
+
+    <button type="submit">Return Car</button>
+  </form>
+</div>
+{% endblock %}
