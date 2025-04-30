@@ -32,7 +32,8 @@ This web-based Car Rental System is designed for ease of use and flexibility. It
 
 car-rental-system/ │ ├── app.py # Flask application ├── cars.txt # Car database (CSV format) │ ├── static/ │ ├── style.css # Main stylesheet │ └── images/ # Car images (1.jpg, 2.jpg, ...) │ ├── templates/ │ ├── base.html # Base template layout │ ├── home.html # Home/landing page │ ├── cars.html # View all cars │ ├── rent.html # Rent a car │ └── return.html # Return a car │ └── README.md # Project documentation
 ## Running the App
+```bash
 python app.py
-
+````
 **Then open your browser and go to:**
 http://127.0.0.1:5000
