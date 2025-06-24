@@ -1,39 +1,86 @@
-# 🚘 Car Rental System
+# 🚗 Car Rental System — Full-Stack Web Project
 
-A professional, responsive **Car Rental System** built using **Python (Flask)** and front-end technologies like **HTML, CSS, and JavaScript**. This system allows users to view available cars, rent vehicles, and return them through a clean web interface.
+A modern, responsive, and feature-rich web application for renting cars. This system enables users to browse available cars, book or return rentals, and provides an admin panel for full CRUD (Create, Read, Update, Delete) control over the fleet.
 
 ---
 
-## 📌 Project Overview
+## 🎯 Features
 
-This web-based Car Rental System is designed for ease of use and flexibility. It simulates a basic rental operation where users can:
-
-- Browse a catalog of available cars
-- Rent a car
+### 👥 User Features
+- View available cars with images and descriptions
+- Real-time status (Available / Rented)
+- Book a car with one click
 - Return a rented car
-- View car status (Available / Rented)
-- See car images for visual reference
+- SwiperJS 3D car showcase slider
+- Flip card hover animations
+- Dark mode toggle
+- Mobile-first responsive design
 
 ---
 
-## 🚀 Tech Stack
+### 🛠️ Admin Panel
+- Add new cars with image URL
+- Edit car details (name, status, image)
+- Delete/remove cars from the system
+- View total, rented, and available cars (dashboard cards)
 
-| Tech             | Purpose                     |
-|------------------|------------------------------|
-| Python (Flask)   | Backend web framework        |
-| HTML5            | Structure & templating       |
-| CSS3             | Styling & responsiveness     |
-| JavaScript       | Front-end interactivity      |
-| Jinja2           | Template rendering in Flask  |
+---
+### 💎 UI/UX Enhancements
+- Glassmorphism and neumorphism elements
+- Toast alerts and smooth animations
+- Newsletter signup (static)
+- Social media footer links
+- Stylish navigation with hover effects
+- Modern fonts and clean layout
 
 ---
 
-## 📁 Folder Structure
+## 🛠️ Tech Stack
 
-car-rental-system/ │ ├── app.py # Flask application ├── cars.txt # Car database (CSV format) │ ├── static/ │ ├── style.css # Main stylesheet │ └── images/ # Car images (1.jpg, 2.jpg, ...) │ ├── templates/ │ ├── base.html # Base template layout │ ├── home.html # Home/landing page │ ├── cars.html # View all cars │ ├── rent.html # Rent a car │ └── return.html # Return a car │ └── README.md # Project documentation
-## Running the App
+| Category        | Tech / Library |
+|----------------|----------------|
+| Backend        | Python, Flask  |
+| Frontend       | HTML5, CSS3, Bootstrap 5, JavaScript |
+| Templating     | Jinja2         |
+| Animations     | SwiperJS, CSS Transforms |
+| Data Storage   | `cars.txt` file (CSV format) |
+| Deployment (optional) | Render, Railway, or Localhost |
+
+---
+
+## 📂 Folder Structure
+
+car-rental/
+├── app.py
+├── cars.txt
+├── templates/
+│ ├── base.html
+│ ├── home.html
+│ ├── cars.html
+│ ├── rent.html
+│ ├── return.html
+│ └── admin.html
+├── static/
+│ ├── style.css
+│ ├── icons/
+│ └── images/
+└── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+- Python 3.10+
+- Flask installed (`pip install flask`)
+
+### Setup Steps
+
 ```bash
+git clone https://github.com/rutujakale111/Car_Rental_System-using-Python
+cd car-rental-system
+pip install flask
 python app.py
-````
-**Then open your browser and go to:**
-http://127.0.0.1:5000
+```
+The app will run at ```http://localhost:5000```
