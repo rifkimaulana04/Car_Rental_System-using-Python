@@ -10,6 +10,69 @@
   </div>
 </section>
 
+
+<!-- SwiperJS CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Swiper Init -->
+<script>
+  const swiper = new Swiper(".productSwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    loop: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 200,
+      modifier: 1.5,
+      slideShadows: false,
+    },
+    autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
+    },
+  });
+</script>
+
+<!-- Styles -->
+<style>
+  .productSwiper {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .swiper-slide.product-card {
+    width: 280px;
+    height: 380px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+  }
+
+  .product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+
+  .btn-sm {
+    font-size: 14px;
+    padding: 6px 12px;
+    font-weight: bold;
+  }
+</style>
+
 <section class="features">
   <div class="feature-card">
     <img src="{{ url_for('static', filename='icons/fast.png') }}" alt="Fast">

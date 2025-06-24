@@ -1,14 +1,29 @@
-<!-- templates/cars.html -->
 {% extends 'base.html' %}
+{% block title %}Available Cars{% endblock %}
 {% block content %}
-<h2 class="text-center">Available Cars</h2>
-<div class="grid-container">
-  {% for car in cars %}
-  <div class="card">
-    <img src="{{ url_for('static', filename='images/' + car.image) }}" alt="{{ car.name }}" class="car-img">
-    <h3>{{ car.name }}</h3>
-    <p>Status: <strong>{{ car.status }}</strong></p>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">Available Cars</h2>
+  <div class="row">
+    {% for car in cars %}
+      {% if car.status.lower() == 'available' %}
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="{{ car.image }}" class="card-img-top" alt="{{ car.name }}"
+                 onerror="this.onerror=null;this.src='https://via.placeholder.com/300x180?text=No+Image';">
+            <div class="card-body">
+              <h5 class="card-title">{{ car.name }}</h5>
+              <p class="card-text">
+                <strong>ID:</strong> {{ car.car_id }}<br>
+                <strong>Status:</strong> {{ car.status }}
+              </p>
+              <a href="{{ url_for('rent_car') }}" class="btn btn-primary w-100">Rent Now</a>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>
+
 {% endblock %}
