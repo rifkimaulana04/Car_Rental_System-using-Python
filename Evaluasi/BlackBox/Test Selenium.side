@@ -1,0 +1,899 @@
+{
+  "id": "c2edd395-b78f-4e6b-bea7-607cbe28f6fb",
+  "version": "2.0",
+  "name": "Test Selenium",
+  "url": "http://127.0.0.1:5000",
+  "tests": [{
+    "id": "4aa22ac2-6220-4fa4-8fe7-89051ec4b2d3",
+    "name": "Test Selenium",
+    "commands": [{
+      "id": "898ddaca-1c92-4591-9a57-54f2fdaca6ce",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9a3781b-3dbc-4035-bd33-66ef64d03e85",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c18a887-3018-4b0b-a9d3-99131932ceb6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View tools",
+      "targets": [
+        ["linkText=View tools", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'View tools')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/cars')])[2]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View tools')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97907ab7-0885-47b6-9fb8-6a9119711d7e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rent Now",
+      "targets": [
+        ["linkText=Rent Now", "linkText"],
+        ["css=.col-md-4:nth-child(1) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Rent Now')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/rent')])[2]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rent Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddb41ab2-2711-4eb0-9e0e-3729634978ea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rent Now",
+      "targets": [
+        ["linkText=Rent Now", "linkText"],
+        ["css=.col-md-4:nth-child(1) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Rent Now')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/rent')])[2]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rent Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c9b8d3a-21b6-4c00-aa6c-f24b88c1e600",
+      "comment": "",
+      "command": "click",
+      "target": "id=rental_date",
+      "targets": [
+        ["id=rental_date", "id"],
+        ["name=rental_date", "name"],
+        ["css=#rental_date", "css:finder"],
+        ["xpath=//input[@id='rental_date']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ebf7629-bb66-4b8c-9aba-160e676c8f97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .flatpickr-day:nth-child(29)",
+      "targets": [
+        ["css=.open .flatpickr-day:nth-child(29)", "css:finder"],
+        ["xpath=//span[29]", "xpath:position"],
+        ["xpath=//span[contains(.,'29')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37c331f0-dba2-45d8-8964-b0b153892529",
+      "comment": "",
+      "command": "type",
+      "target": "id=rental_date",
+      "targets": [
+        ["id=rental_date", "id"],
+        ["name=rental_date", "name"],
+        ["css=#rental_date", "css:finder"],
+        ["xpath=//input[@id='rental_date']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2025-06-29"
+    }, {
+      "id": "dc5b5b74-803c-4815-a260-44aa6044bd17",
+      "comment": "",
+      "command": "click",
+      "target": "id=return_date",
+      "targets": [
+        ["id=return_date", "id"],
+        ["name=return_date", "name"],
+        ["css=#return_date", "css:finder"],
+        ["xpath=//input[@id='return_date']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9c6a8d4-bcfd-4c1d-a829-5d4566d16cb0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .dayContainer",
+      "targets": [
+        ["css=.open .dayContainer", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afc68bd3-2e8b-4dc3-856e-e52f211ae603",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .flatpickr-day:nth-child(29)",
+      "targets": [
+        ["css=.open .flatpickr-day:nth-child(29)", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/span[29]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d548450-bfa8-4dc1-bc60-767fc0dddaf1",
+      "comment": "",
+      "command": "type",
+      "target": "id=return_date",
+      "targets": [
+        ["id=return_date", "id"],
+        ["name=return_date", "name"],
+        ["css=#return_date", "css:finder"],
+        ["xpath=//input[@id='return_date']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "2025-06-29"
+    }, {
+      "id": "f96e6ccf-6cdd-4962-9f53-1585b4e1b445",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Rent Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd29aec6-6e2f-4851-94ad-bf87a9b1e9a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rent Now",
+      "targets": [
+        ["linkText=Rent Now", "linkText"],
+        ["css=.col-md-4:nth-child(1) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Rent Now')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/rent')])[2]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rent Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1651ffeb-d88b-4cc5-ae15-5ae2679c47b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=rental_date",
+      "targets": [
+        ["id=rental_date", "id"],
+        ["name=rental_date", "name"],
+        ["css=#rental_date", "css:finder"],
+        ["xpath=//input[@id='rental_date']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a782a5c-6692-4506-82a3-e71ae8b01f66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .today",
+      "targets": [
+        ["css=.open .today", "css:finder"],
+        ["xpath=//span[28]", "xpath:position"],
+        ["xpath=//span[contains(.,'28')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88cfd9e5-9d84-4773-93dd-950190b1b171",
+      "comment": "",
+      "command": "type",
+      "target": "id=rental_date",
+      "targets": [
+        ["id=rental_date", "id"],
+        ["name=rental_date", "name"],
+        ["css=#rental_date", "css:finder"],
+        ["xpath=//input[@id='rental_date']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2025-06-28"
+    }, {
+      "id": "5e19fe42-dc3e-475f-833d-c3ccc22206ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=return_date",
+      "targets": [
+        ["id=return_date", "id"],
+        ["name=return_date", "name"],
+        ["css=#return_date", "css:finder"],
+        ["xpath=//input[@id='return_date']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f416b2c-cb44-4614-ba86-b70dcac4f7d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .flatpickr-day:nth-child(30)",
+      "targets": [
+        ["css=.open .flatpickr-day:nth-child(30)", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/span[30]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fc5ea25-1399-4e8e-8082-0ed9bd00360a",
+      "comment": "",
+      "command": "type",
+      "target": "id=return_date",
+      "targets": [
+        ["id=return_date", "id"],
+        ["name=return_date", "name"],
+        ["css=#return_date", "css:finder"],
+        ["xpath=//input[@id='return_date']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "2025-06-30"
+    }, {
+      "id": "fa446a5b-ede7-4715-a4ec-599d7acb736d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .flatpickr-next-month",
+      "targets": [
+        ["css=.open .flatpickr-next-month", "css:finder"],
+        ["xpath=//body/div[2]/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52851a4e-37e2-4e61-91c4-d0920cd784a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .dayContainer",
+      "targets": [
+        ["css=.open .dayContainer", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5342139c-151b-4fd8-8f47-cf32471ba8c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .flatpickr-day:nth-child(10)",
+      "targets": [
+        ["css=.open .flatpickr-day:nth-child(10)", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/span[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61097139-632a-49de-b5b4-f036d8f946e0",
+      "comment": "",
+      "command": "type",
+      "target": "id=return_date",
+      "targets": [
+        ["id=return_date", "id"],
+        ["name=return_date", "name"],
+        ["css=#return_date", "css:finder"],
+        ["xpath=//input[@id='return_date']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "2025-07-08"
+    }, {
+      "id": "34be36e6-e171-4aef-a4b4-28862e38a043",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row",
+      "targets": [
+        ["css=.row", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e4df5bb-c973-48dd-910b-e038cfaedbbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Rent Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3d4eba0-86c5-4997-aa8a-221b581400fc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rent Now",
+      "targets": [
+        ["linkText=Rent Now", "linkText"],
+        ["css=.col-md-4:nth-child(1) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Rent Now')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/rent')])[2]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rent Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "961d1ff0-07b3-4a7e-9701-4c70c738583c",
+      "comment": "",
+      "command": "click",
+      "target": "id=rental_date",
+      "targets": [
+        ["id=rental_date", "id"],
+        ["name=rental_date", "name"],
+        ["css=#rental_date", "css:finder"],
+        ["xpath=//input[@id='rental_date']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01b77f65-f1f1-45a0-8057-b467f50ec173",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .flatpickr-day:nth-child(30)",
+      "targets": [
+        ["css=.open .flatpickr-day:nth-child(30)", "css:finder"],
+        ["xpath=//span[30]", "xpath:position"],
+        ["xpath=//span[contains(.,'30')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "864bef81-08f1-4be2-9afa-e3cc15744c7f",
+      "comment": "",
+      "command": "type",
+      "target": "id=rental_date",
+      "targets": [
+        ["id=rental_date", "id"],
+        ["name=rental_date", "name"],
+        ["css=#rental_date", "css:finder"],
+        ["xpath=//input[@id='rental_date']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2025-06-30"
+    }, {
+      "id": "ab420ceb-0ef8-4910-b13c-e8fdffda3a13",
+      "comment": "",
+      "command": "click",
+      "target": "id=return_date",
+      "targets": [
+        ["id=return_date", "id"],
+        ["name=return_date", "name"],
+        ["css=#return_date", "css:finder"],
+        ["xpath=//input[@id='return_date']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da9273bb-0215-40f2-bcb2-d24a59bbe3ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .flatpickr-next-month > svg",
+      "targets": [
+        ["css=.open .flatpickr-next-month > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5b04b54-2da3-4905-90aa-28a78a2c1a61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .flatpickr-day:nth-child(11)",
+      "targets": [
+        ["css=.open .flatpickr-day:nth-child(11)", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/span[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5bab7fd-6666-4665-8085-d88fdab2e1fb",
+      "comment": "",
+      "command": "type",
+      "target": "id=return_date",
+      "targets": [
+        ["id=return_date", "id"],
+        ["name=return_date", "name"],
+        ["css=#return_date", "css:finder"],
+        ["xpath=//input[@id='return_date']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "2025-07-09"
+    }, {
+      "id": "0be4f3d4-a611-4b0c-8d17-a3410bfc09c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Rent Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fcacca5-311b-4b29-ac0e-f279aa7343bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=nav",
+      "targets": [
+        ["css=nav", "css:finder"],
+        ["xpath=//nav", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b3985fa-9e86-4ff2-b622-9c5016201dd1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cars",
+      "targets": [
+        ["linkText=Cars", "linkText"],
+        ["css=nav > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Cars')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/cars')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Cars')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d97a7330-8612-4887-9872-2e0cffc1f5fe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cars",
+      "targets": [
+        ["linkText=Cars", "linkText"],
+        ["css=nav > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Cars')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/cars')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Cars')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "037f8d41-9bff-4658-ae51-55511fa09c56",
+      "comment": "",
+      "command": "click",
+      "target": "css=nav",
+      "targets": [
+        ["css=nav", "css:finder"],
+        ["xpath=//nav", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a69ef1ff-e74e-4a71-a037-39a261a25b35",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=nav > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a3db4b1-4b9b-4186-827a-9709e34eb4c0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cars",
+      "targets": [
+        ["linkText=Cars", "linkText"],
+        ["css=nav > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Cars')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/cars')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Cars')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16cc6c48-ae84-4039-9669-04c687100c09",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rent",
+      "targets": [
+        ["linkText=Rent", "linkText"],
+        ["css=nav > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Rent')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rent')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Rent')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43a8a199-7d30-47cb-96c7-a2a0e8195307",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=nav > a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/return')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc84a3ea-f4ce-46b9-901e-bc2f454198d8",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=car_id",
+      "targets": [
+        ["id=car_id", "id"],
+        ["name=car_id", "name"],
+        ["css=#car_id", "css:finder"],
+        ["xpath=//select[@id='car_id']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-422,-306.3999938964844"
+    }, {
+      "id": "9dd9e3de-5a97-4939-90a9-6cbca209bc42",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=car_id",
+      "targets": [
+        ["id=car_id", "id"],
+        ["name=car_id", "name"],
+        ["css=#car_id", "css:finder"],
+        ["xpath=//select[@id='car_id']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-422,-306.3999938964844"
+    }, {
+      "id": "bc33aeb0-9348-4cc9-b41d-266150a85b1f",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=car_id",
+      "targets": [
+        ["id=car_id", "id"],
+        ["name=car_id", "name"],
+        ["css=#car_id", "css:finder"],
+        ["xpath=//select[@id='car_id']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-422,-306.3999938964844"
+    }, {
+      "id": "1492bf14-ec2d-40fe-8a81-abe64565e448",
+      "comment": "",
+      "command": "click",
+      "target": "id=car_id",
+      "targets": [
+        ["id=car_id", "id"],
+        ["name=car_id", "name"],
+        ["css=#car_id", "css:finder"],
+        ["xpath=//select[@id='car_id']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b43cde9e-5193-41dd-91eb-c9c9b5dffdc8",
+      "comment": "",
+      "command": "click",
+      "target": "id=car_id",
+      "targets": [
+        ["id=car_id", "id"],
+        ["name=car_id", "name"],
+        ["css=#car_id", "css:finder"],
+        ["xpath=//select[@id='car_id']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22829422-1301-4052-a413-f56ef1d8b129",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=car_id",
+      "targets": [
+        ["id=car_id", "id"],
+        ["name=car_id", "name"],
+        ["css=#car_id", "css:finder"],
+        ["xpath=//select[@id='car_id']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-422,-306.3999938964844"
+    }, {
+      "id": "ce49400e-fef3-49b8-b3b4-5a1e397a2977",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=car_id",
+      "targets": [
+        ["id=car_id", "id"],
+        ["name=car_id", "name"],
+        ["css=#car_id", "css:finder"],
+        ["xpath=//select[@id='car_id']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-422,-306.3999938964844"
+    }, {
+      "id": "97f25651-9865-4807-94fb-4f603287ed5f",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=car_id",
+      "targets": [
+        ["id=car_id", "id"],
+        ["name=car_id", "name"],
+        ["css=#car_id", "css:finder"],
+        ["xpath=//select[@id='car_id']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-422,-306.3999938964844"
+    }, {
+      "id": "bb0770b1-deb4-4eb1-8f89-edb86bf2fe1b",
+      "comment": "",
+      "command": "click",
+      "target": "id=car_id",
+      "targets": [
+        ["id=car_id", "id"],
+        ["name=car_id", "name"],
+        ["css=#car_id", "css:finder"],
+        ["xpath=//select[@id='car_id']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38aa0df6-21ef-481f-8498-93e834fc9476",
+      "comment": "",
+      "command": "click",
+      "target": "id=car_id",
+      "targets": [
+        ["id=car_id", "id"],
+        ["name=car_id", "name"],
+        ["css=#car_id", "css:finder"],
+        ["xpath=//select[@id='car_id']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2e887f0-ac9c-4fcb-8e99-ba5df307b93a",
+      "comment": "",
+      "command": "select",
+      "target": "id=car_id",
+      "targets": [],
+      "value": "label=104 - BMW M3"
+    }, {
+      "id": "b0848f48-1444-4cf6-8584-a8211e55d422",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(3)",
+      "targets": [
+        ["css=option:nth-child(3)", "css:finder"],
+        ["xpath=//option[@value='104']", "xpath:attributes"],
+        ["xpath=//select[@id='car_id']/option[3]", "xpath:idRelative"],
+        ["xpath=//option[3]", "xpath:position"],
+        ["xpath=//option[contains(.,'104 - BMW M3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1457967f-d32b-43a1-94c0-8c4e41297299",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Return Car')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d9c7a05-3117-4847-a5bc-1d337adfc06d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swal2-confirm",
+      "targets": [
+        ["css=.swal2-confirm", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Yes, return it!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1a493cf-5f02-4862-b22b-0793b2abd9f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rent",
+      "targets": [
+        ["linkText=Rent", "linkText"],
+        ["css=nav > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Rent')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rent')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Rent')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6a21aa3-fa8d-47b2-abf1-cfd8be8c09ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=nav > a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/return')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b61c5a57-cfeb-41af-87a2-fb7195bfa383",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Return Car')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67049b58-c0c8-4258-9637-09172779227c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swal2-confirm",
+      "targets": [
+        ["css=.swal2-confirm", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Yes, return it!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcf58322-a834-428f-83b0-71a8500dd722",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Admin",
+      "targets": [
+        ["linkText=Admin", "linkText"],
+        ["css=a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Admin')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/admin')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Admin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31f37e25-3f2f-4038-8337-035305be46d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.stat-card:nth-child(1) > p",
+      "targets": [
+        ["css=.stat-card:nth-child(1) > p", "css:finder"],
+        ["xpath=//section[@id='dashboard']/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'15')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0e53643-0987-4b19-a79d-690b2be9a6ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.stat-card:nth-child(2) > p",
+      "targets": [
+        ["css=.stat-card:nth-child(2) > p", "css:finder"],
+        ["xpath=//section[@id='dashboard']/div/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'8')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e2f7611-50dc-4224-9b76-1f53aa8820d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.stat-card:nth-child(3) > h3",
+      "targets": [
+        ["css=.stat-card:nth-child(3) > h3", "css:finder"],
+        ["xpath=//section[@id='dashboard']/div/div[3]/h3", "xpath:idRelative"],
+        ["xpath=//div[3]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Rented')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46b70304-b730-496d-abc3-da0254e0a4bf",
+      "comment": "",
+      "command": "click",
+      "target": "name=car_id",
+      "targets": [
+        ["name=car_id", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='car_id']", "xpath:attributes"],
+        ["xpath=//section[@id='add-car-form']/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e4df4df-f6fa-42bb-9f5c-837422b40973",
+      "comment": "",
+      "command": "click",
+      "target": "name=car_id",
+      "targets": [
+        ["name=car_id", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='car_id']", "xpath:attributes"],
+        ["xpath=//section[@id='add-car-form']/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d8774c4-8daf-435e-b2ee-5786553e7e84",
+      "comment": "",
+      "command": "click",
+      "target": "id=toggleTheme",
+      "targets": [
+        ["id=toggleTheme", "id"],
+        ["css=#toggleTheme", "css:finder"],
+        ["xpath=//button[@id='toggleTheme']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Dark Mode')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8dc3788-6022-44f8-9dc9-ae634243d7e4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=📊 Dashboard",
+      "targets": [
+        ["linkText=📊 Dashboard", "linkText"],
+        ["css=.nav-card-hover:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'📊 Dashboard')]", "xpath:link"],
+        ["xpath=//nav[@id='sidebarNav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#dashboard')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'📊 Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdfb4341-c797-4b2c-8edb-aadb9ef9f5bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-card-hover:nth-child(2)",
+      "targets": [
+        ["css=.nav-card-hover:nth-child(2)", "css:finder"],
+        ["xpath=//nav[@id='sidebarNav']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1f173e9-552a-4a8a-abd3-0fd08568cfd1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=✏️ Edit Car",
+      "targets": [
+        ["linkText=✏️ Edit Car", "linkText"],
+        ["css=.nav-card-hover:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'✏️ Edit Car')]", "xpath:link"],
+        ["xpath=//nav[@id='sidebarNav']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#edit-car-form')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'✏️ Edit Car')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "385e7c87-2675-46c0-9c53-aa92e677a3d0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1b6c447c-0140-4d20-b84b-7f6beed1c39d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4aa22ac2-6220-4fa4-8fe7-89051ec4b2d3"]
+  }],
+  "urls": ["http://127.0.0.1:5000/"],
+  "plugins": []
+}
