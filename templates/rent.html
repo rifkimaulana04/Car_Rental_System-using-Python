@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
   <div class="container py-5" data-aos="fade-up">
-    <h2 class="mb-4 text-center">🚗 Rent a Car</h2>
+    <h2 class="mb-4 text-center">🚗 Rent a Tools</h2>
     <form method="POST" class="row g-4 shadow-lg p-4 rounded bg-white">
       <div class="col-md-6 mx-auto">
-        <label for="car_id" class="form-label fw-bold">Select a Car</label>
+        <label for="car_id" class="form-label fw-bold">Select a Tools</label>
         <select class="form-select form-select-lg" name="car_id" id="car_id" required onchange="updatePreview()">
           {% for car in cars if car.status == 'Available' %}
             <option value="{{ car.car_id }}" data-img="{{ car.image_url }}" data-price="{{ car.price }}">{{ car.name }} (ID: {{ car.car_id }})</option>
