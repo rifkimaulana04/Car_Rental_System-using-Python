@@ -1,0 +1,31 @@
+
+Analisis dan Pemilihan Lisensi – Car Rental System (Flask-based)
+
+1. Tujuan Lisensi:
+Proyek ini bertujuan untuk:
+- Digunakan kembali oleh mahasiswa, dosen, atau pengembang web.
+- Dimodifikasi, dikembangkan, atau diintegrasikan ke sistem lain.
+- Tidak membatasi penggunaan pribadi maupun komersial.
+
+2. Pilihan Lisensi: MIT License
+Alasan memilih MIT:
+- Sangat populer dan diterima luas oleh komunitas open source.
+- Memberikan izin penuh: penggunaan, modifikasi, distribusi, komersialisasi.
+- Meminimalisir tanggung jawab hukum pencipta asli.
+- Kompatibel dengan proyek Flask, HTML, CSS, dan Python.
+
+3. Ketentuan Utama MIT License:
+- Siapa pun dapat menggunakan kode ini tanpa meminta izin.
+- Wajib mencantumkan copyright dan isi lisensi di setiap distribusi.
+- Tidak ada jaminan atas kerusakan, bug, atau kegagalan yang terjadi.
+
+4. Catatan Implementasi:
+- File lisensi disimpan sebagai `LICENSE` di direktori utama proyek.
+- Header komentar tambahan dapat disisipkan di HTML/Jinja atau file Python.
+
+5. Rekomendasi:
+- Jika proyek dikembangkan lebih lanjut oleh pihak ketiga, cukup mempertahankan file LICENSE yang sama.
+- Bila ingin membatasi penggunaan komersial, bisa pertimbangkan lisensi Creative Commons (BY-NC), tetapi tidak disarankan untuk proyek berbasis kode seperti ini.
+
+Kesimpulan:
+MIT License adalah lisensi paling tepat untuk proyek ini karena memberi kebebasan luas bagi pengguna, sesuai dengan semangat berbagi dan kolaborasi dalam komunitas pengembang Python dan Flask.
